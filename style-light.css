@@ -13,7 +13,7 @@ html{
     background-color: #000000;
 }
 .maintext{
-    color: #bbb;
+    color: #131313;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -94,13 +94,14 @@ li:last-child {
   float: right;
   margin: 0;
   padding: 0;
+  src: "src/dark.png";
 }
 
 body {
     --color-text: #fff;
     /*--color-bg: #143261;*/
-    --color-bg: #021127;
-    --color-bg-2: #000;
+    --color-bg: #b3d1ff;
+    --color-bg-2: #ffffff;
     --color-link: #f6e27f;
     --color-link-hover: #e2c391;
     background: radial-gradient(ellipse at 50% 50%, var(--color-bg) 40%, var(--color-bg-2) 150%);
