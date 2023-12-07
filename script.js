@@ -3,7 +3,6 @@ var script = document.createElement('script');
 script.src = "https://code.jquery.com/jquery-3.7.1.min.js"; // Check https://jquery.com/ for the current version
 document.getElementsByTagName('head')[0].appendChild(script);
 
-
 var activeSkin = 0;
 var buttonimgs = ["src/light.png", "src/light.png"]
 function theme(){
